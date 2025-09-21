@@ -2,7 +2,7 @@
     <section class="container feature-cards">
         <div class="feature-card1">
             <div>
-                <img class="icon-feature" src="C:\Users\Borja\WEB ACADEMIA SOL +\academiasol-website\src\icons\Icono-ClasesTeoricas.svg" alt="Icono Clases Teoricas"  style="height:85px">
+                <img class="icon-feature" src= '../icons/Icono-ClasesTeoricas.svg'  style="height:85px">
             </div>
             <div class="text-feature">
             <h3 class="title-feature">Clases teóricas y prácticas</h3>
@@ -11,7 +11,7 @@
         </div>
         <div class="feature-card1">
             <div>
-                <img class="icon-feature" src="C:\Users\Borja\WEB ACADEMIA SOL +\academiasol-website\src\icons\Icono-Apuntes.svg" alt="Apuntes Propios Actualizados"  style="height:85px">
+                <img class="icon-feature" src='../icons/Icono-Apuntes.svg' alt="Apuntes Propios Actualizados"  style="height:85px">
             </div>
             <div class="text-feature">
             <h3 class="title-feature">Apuntes propios actualizados</h3>
@@ -20,7 +20,7 @@
         </div>
         <div class="feature-card1">
             <div>
-                <img class="icon-feature" src="C:\Users\Borja\WEB ACADEMIA SOL +\academiasol-website\src\icons\Icono-ResoExamenes.svg" alt="Icono Clases Teoricas"  style="height:85px">
+                <img class="icon-feature" src='../icons/Icono-ResoExamenes.svg' alt="Icono Clases Teoricas"  style="height:85px">
             </div>
             <div class="text-feature">
             <h3 class="title-feature">Resolución de exámenes</h3>
@@ -29,7 +29,7 @@
         </div>     
         <div class="feature-card1">
             <div>
-                <img class="icon-feature" src="C:\Users\Borja\WEB ACADEMIA SOL +\academiasol-website\src\icons\Icono-GarantiaAprobado.svg" alt="Icono Clases Teoricas"  style="height:85px">
+                <img class="icon-feature" src='../icons/Icono-GarantiaAprobado.svg' alt="Icono Clases Teoricas"  style="height:85px">
             </div>
             <div class="text-feature">
             <h3 class="title-feature">Garantías de aprobado</h3>
@@ -40,7 +40,7 @@
         <section class="container feature-cards">
         <div class="feature-card2">
             <div>
-                <img class="icon-feature" src="C:\Users\Borja\WEB ACADEMIA SOL +\academiasol-website\src\icons\Icono-2SemanasPrueba.svg" alt="Icono Clases Teoricas"  style="height:85px">
+                <img class="icon-feature" src='../icons/Icono-2SemanasPrueba.svg' alt="Icono Clases Teoricas"  style="height:85px">
             </div>
             <div class="text-feature">
             <h3 class="title-feature">2 semanas de prueba gratis</h3>
@@ -49,7 +49,7 @@
         </div>
         <div class="feature-card2">
             <div>
-                <img class="icon-feature" src="C:\Users\Borja\WEB ACADEMIA SOL +\academiasol-website\src\icons\Icono-SeguimientoEvaluacion.svg" alt="Icono Clases Teoricas"  style="height:85px">
+                <img class="icon-feature" src='../icons/Icono-SeguimientoEvaluacion.svg' alt="Icono Clases Teoricas"  style="height:85px">
             </div>
             <div class="text-feature">
             <h3 class="title-feature">Seguimiento de la evaluación continua</h3>
@@ -58,7 +58,7 @@
         </div>
         <div class="feature-card2">
             <div>
-                <img class="icon-feature" src="C:\Users\Borja\WEB ACADEMIA SOL +\academiasol-website\src\icons\Icono-ClasesExtra.svg" alt="Icono Clases Teoricas"  style="height:85px">
+                <img class="icon-feature" src='../icons/Icono-ClasesExtra.svg' alt="Icono Clases Teoricas"  style="height:85px">
             </div>
             <div class="text-feature">
             <h3 class="title-feature">Clases extras y de dudas</h3>
@@ -67,7 +67,7 @@
         </div>     
         <div class="feature-card2">
             <div>
-                <img class="icon-feature" src="C:\Users\Borja\WEB ACADEMIA SOL +\academiasol-website\src\icons\Icono-AcademiaExperiencia.svg" alt="Icono Clases Teoricas"  style="height:85px">
+                <img class="icon-feature" src='../icons/Icono-AcademiaExperiencia.svg' alt="Icono Clases Teoricas"  style="height:85px">
             </div>
             <div class="text-feature">
             <h3 class="title-feature">La Academia con más experiencia</h3>
