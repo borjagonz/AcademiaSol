@@ -14,7 +14,7 @@ body{
 }
 
 .hero {
-  background: linear-gradient(to right, rgba(27, 37, 171, 1), transparent), url('C:\Users\Borja\WEB ACADEMIA SOL +\academiasol-website\src\assets\academiasol-hero-background1.jpg');
+  background: linear-gradient(to right, rgba(27, 37, 171, 1), transparent), url('../assets/academiasol-hero-background1.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;}
