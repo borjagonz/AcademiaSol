@@ -1,0 +1,61 @@
+*{ box-sizing: border-box; }
+html,body,#app{ height:100%; scroll-behavior: smooth;}
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin:0; color:var(--text); -webkit-font-smoothing:antialiased;
+  background-color: #1b25ab;
+}
+
+.container{ max-width:1500px; margin:0 auto; padding:0 20px;}
+
+.escudo-academiasol:hover {
+  scale: 110%;
+  transition: 0.3s;
+}
+
+.hero {
+  background: linear-gradient(to right, rgba(27, 37, 171, 1), transparent), url('C:\Users\Borja\WEB ACADEMIA SOL +\academiasol-website\src\assets\academiasol-hero-background1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;}
+.cursores-hero {position: relative; top: 180px;}
+.header{display:flex; align-items:center; justify-content:space-between; padding:18px 0;}
+.nav-links{ display:flex; gap:50px; align-items:center; color:white;}
+.cta-btn{font-family: 'Montserrat'; font-weight: 600; font-size: 14px; background-color: #facd00; color:#1b25ab; padding:10px 18px; border-radius:30px; ; border:none; text-decoration: none;}
+.cta-btn:hover{ cursor:pointer;color: #1b25ab; background-color: white; transition: 0.3s;}
+.nav-link1{text-decoration: transparent; color: white; font-size: 14px; font-weight: 500;}
+.nav-link1:hover{text-decoration:underline 2px #facd00; text-underline-offset: 8px; transition: 0.5s;}
+
+.hero-title {color: white; font-size: 64px; font-weight: 600;}
+.hero-inner {padding-left: 120px;}
+.hero-sub {color: white; font-weight: 300; font-size: 36px; margin: 50px 0px 50px 0px;}
+.btn-hero {text-decoration: none; margin-right: 30px; margin-top: 0px;font-family: 'Montserrat'; font-weight: 600; font-size: 14px; background-color: transparent; color:#facd00; border: 2px solid #facd00; border-radius:30px; padding:10px 18px;}
+.btn-hero:hover {cursor: pointer; color: white; transition: 0.3s;}
+.cursor-izq {color: white; font-size: 100px; cursor: pointer; }
+.cursor-izq:hover {color: #facd00; scale: 120%; transition: 0.5s}
+.cursor-der {color: white; font-size: 100px; position: relative; justify-content: right; cursor: pointer;}
+.cursor-der:hover {color: #facd00; scale: 120%; transition: 0.5s}
+.cursores-hero {display: flex; justify-content: space-between;}
+
+.features-header {text-align: center; margin-top: 120px;}
+.features-title {color: white; font-size: 64px;font-weight: 200; color:#facd00}
+.features-title-bold {color: white; font-size: 64px; padding-left: 20px; font-weight: 600;color:#facd00}
+.features-subtitle {color: white; font-weight: 300; letter-spacing: 5px; padding-bottom: 60px;}
+
+.feature-cards {display: flex; justify-content: space-between;}
+.feature-card1 { width: 23.5%; justify-items: center; padding-bottom: 50px;}
+.feature-card2 { width: 23.5%; justify-items: center; padding-bottom: 120px;}
+.feature-card1:hover {scale: 105%; transition: 0.5s}
+.feature-card2:hover {scale: 105%; transition: 0.5s}
+.icon-feature {position: relative; top: 50px; box-shadow:0px 0px 20px rgba(0, 0, 0, 0.25); border-radius: 20px;}
+.text-feature {box-shadow:5px 5px 10px rgba(0, 0, 0, 0.18),-5px -5px 10px rgba(255, 255, 255, 0.15); border-radius: 30px; padding: 70px 30px 30px 30px; height: 80%; text-align: center;}
+.text-feature:hover {transition: 0.5s}
+.title-feature { color: #facd00 ; font-size: 22px; font-weight: 600;}
+.body-feature { color: white; font-size: 18px;}
+
+.form {background-color: #ecf0f1;}
+
+
+.h1 {font-size: 60px;}
+.h2 {font-size: 48px; color: white;}
+.h3 {font-size: 20px;}
