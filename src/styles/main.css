@@ -19,7 +19,7 @@ body{
   background-position: center;
   height: 100vh;}
 .cursores-hero {position: relative; top: 180px;}
-.header{display:flex; align-items:center; justify-content:space-between; padding:18px 0;}
+.header{display:flex; align-items:center; justify-content:space-between; padding:18px 20px 0px 0px;}
 .nav-links{ display:flex; gap:50px; align-items:center; color:white;}
 .cta-btn{font-family: 'Montserrat'; font-weight: 600; font-size: 14px; background-color: #facd00; color:#1b25ab; padding:10px 18px; border-radius:30px; ; border:none; text-decoration: none;}
 .cta-btn:hover{ cursor:pointer;color: #1b25ab; background-color: white; transition: 0.3s;}
