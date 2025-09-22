@@ -28,7 +28,7 @@ body{
 
 .hero-title {color: white; font-size: 64px; font-weight: 600;}
 .hero-inner {padding-left: 120px;}
-.hero-sub {color: white; font-weight: 300; font-size: 36px; margin: 50px 0px 50px 0px;}
+.hero-sub {color: white; font-weight: 300; font-size: 36px; margin: 50px 0px 50px 0px; max-width: 650px;}
 .btn-hero {text-decoration: none; margin-right: 30px; margin-top: 0px;font-family: 'Montserrat'; font-weight: 600; font-size: 14px; background-color: transparent; color:#facd00; border: 2px solid #facd00; border-radius:30px; padding:10px 18px;}
 .btn-hero:hover {cursor: pointer; color: white; transition: 0.3s;}
 .cursor-izq {color: white; font-size: 100px; cursor: pointer; }

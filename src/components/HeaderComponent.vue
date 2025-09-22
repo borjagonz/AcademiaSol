@@ -7,7 +7,7 @@
       <router-link class="nav-link1" to="/cursos-ingles">CURSOS DE INGLÉS</router-link>
       <router-link class="nav-link1" to="/contacto">CONTACTO</router-link>
       <a class="cta-btn" href="/#horarios">HORARIOS</a>
-      <a class="cta-btn" href="/#formulario">RESERVAR PLAZA</a>
+      <a class="cta-btn" href="/#formulario">SOLICITAR PLAZA</a>
     </nav>
   </header>
   
