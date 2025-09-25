@@ -103,23 +103,23 @@ onBeforeUnmount(() => cancelAnimationFrame(animationFrame))
 
 .title-galeria {
   color: white;
-  font-size: 60px;
+  font-size: 64px;
   padding: 120px 20px 0px 20px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0 auto;
 }
 
 .direccion {
   color: #facd00;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 400;
 }
 
 .direccion-maps {
   color: #facd00;
   text-underline-offset: 4px;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 400;
   text-decoration-thickness: 1px;
 }
 

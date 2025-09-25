@@ -12,19 +12,19 @@
         <div class="downloads-cursos">
             <div class="download-section1">
                 <h3 class="titulo-curso">Ade y Economía</h3>
-                <a class="download-button" href=""> DESCARGAR HORARIOS</a>
+                <a href="https://drive.google.com/file/d/1eeTBcYXA5fi0syvmVZCQyp1UFnQmLLC3/view?usp=drive_link" download="FLYER_A5_INGLES_ACSOL_1_PRINT.pdf" target="_blank" class="download-button">DESCARGAR HORARIOS <br> CURSO EXTENSIVO</a>
             </div>
             <div class="download-section1">
                 <h3 class="titulo-curso">Ingeniería Civil</h3>
-                <a class="download-button" href=""> DESCARGAR HORARIOS</a>
+                <a href="https://drive.google.com/file/d/1eeTBcYXA5fi0syvmVZCQyp1UFnQmLLC3/view?usp=drive_link" download="FLYER_A5_INGLES_ACSOL_1_PRINT.pdf" target="_blank" class="download-button">DESCARGAR HORARIOS <br> CURSO EXTENSIVO</a>
             </div>
             <div class="download-section1">
                 <h3 class="titulo-curso">Ingeniería Ambiental y Ciencias del Mar</h3>
-                <a class="download-button" href=""> DESCARGAR HORARIOS</a>
+                <a href="https://drive.google.com/file/d/1eeTBcYXA5fi0syvmVZCQyp1UFnQmLLC3/view?usp=drive_link" download="FLYER_A5_INGLES_ACSOL_1_PRINT.pdf" target="_blank" class="download-button">DESCARGAR HORARIOS <br> CURSO EXTENSIVO</a>
             </div>
             <div class="download-section1">
                 <h3 class="titulo-curso">Arquitectura Técnica</h3>
-                <a class="download-button" href=""> DESCARGAR HORARIOS</a>
+                <a href="https://drive.google.com/file/d/1eeTBcYXA5fi0syvmVZCQyp1UFnQmLLC3/view?usp=drive_link" download="FLYER_A5_INGLES_ACSOL_1_PRINT.pdf" target="_blank" class="download-button">DESCARGAR HORARIOS <br> CURSO EXTENSIVO</a>
             </div>
         </div>
         <div id="horarios-ingles">
@@ -33,11 +33,11 @@
         <div class="downloads-english">
             <div class="download-section2">
                 <h3 class="titulo-curso">Curso Intensivo</h3>
-                <a class="download-button" href=""> DESCARGAR HORARIO, FECHAS Y PRECIO</a>
+                <a href="https://drive.google.com/file/d/1eeTBcYXA5fi0syvmVZCQyp1UFnQmLLC3/view?usp=drive_link" download="FLYER_A5_INGLES_ACSOL_1_PRINT.pdf" target="_blank" class="download-button">DESCARGAR HORARIOS, FECHAS Y PRECIO</a>
             </div>
             <div class="download-section2">
                 <h3 class="titulo-curso">Curso Extensivo</h3>
-                <a class="download-button" href=""> DESCARGAR HORARIO, FECHAS Y PRECIO</a>
+                <a href="https://drive.google.com/file/d/1eeTBcYXA5fi0syvmVZCQyp1UFnQmLLC3/view?usp=drive_link" download="FLYER_A5_INGLES_ACSOL_1_PRINT.pdf" target="_blank" class="download-button">DESCARGAR HORARIOS, FECHAS Y PRECIO</a>
             </div>
         </div>
 
@@ -80,7 +80,7 @@
 }
 
 .download-section1 {
-    padding: 10px 30px 50px 30px;
+    padding: 10px 30px 40px 30px;
     border-radius: 30px;
     border: px solid #1b25ab;
     width: 23.5%;
@@ -94,7 +94,7 @@
     box-shadow:
     5px 5px 10px rgba(0, 0, 0, 0.1), 
     -5px -5px 10px rgba(255, 255, 255, 0.3);
-    padding: 10px 40px 50px 40px;
+    padding: 10px 30px 40px 30px;
     border-radius: 30px;
     border: px solid #1b25ab;
     align-content: center;
@@ -134,7 +134,7 @@
 
 .titulo-curso {
     color: #1b25ab;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     padding-top: 0px;
     font-size: 22px;
     font-weight: 600;
@@ -148,9 +148,14 @@
     color:#1b25ab;
     border-radius:30px;
     background-color: #ecf0f1;
-    padding:10px 18px;
+    padding:12px 25px;
     text-decoration: none;
     align-items: end;
+    border: none;
+    cursor: pointer;
+    white-space: normal;
+    display: inline-block;
+    width: 100%;
 }
 
 .download-button:hover {

@@ -35,9 +35,30 @@
           <label for="grado">Seleccionar grado *</label>
           <select id="grado" v-model="form.grado" required>
             <option value="">Selecciona un grado</option>
-            <option value="Grado 1">Grado 1</option>
-            <option value="Grado 2">Grado 2</option>
-            <option value="Grado 3">Grado 3</option>
+            <optgroup label="FACULTAD DE ECONOMÍA Y EMPRESAS - UB">
+              <option>Grado en ADE y Economía</option>
+              <option>Grado en Empresa Internacional</option>
+              <option>Grado en Estadística</option>
+              <option>Grado en Sociología</option>
+            </optgroup>
+            <optgroup label="ESADE - URL">
+              <option>Grado en Dirección de Empresas BBA</option>
+            </optgroup>
+            <optgroup label="ESCUELA DE INGENIEROS DE CAMINOS, CANALES Y PUERTOS, ETSECCP - UPC">
+              <option>Grado en Ingeniería Civil</option>
+              <option>Grado en Ingeniería de la Construcción</option>
+            </optgroup>
+            <optgroup label="FACULTAD DE INFORMÁTICA, FIB - UPC">
+              <option>Grado en Ingeniería Informática</option>
+              <option>Grado en Ciencia e Ingeniería de Datos</option>
+            </optgroup>
+            <optgroup label="ESCUELA TÉCNICA DE INGENIERÍA DE TELECOMUNICACIÓN, ETSETB - UPC">
+              <option>Grado en Ingeniería de Telecomunicación</option>
+              <option>Grado en Ingeniería Física</option>
+            </optgroup>
+            <optgroup label="IQS - URL">
+              <option>Grado en Dirección de y Administración de Empresas, ADE</option>
+            </optgroup>          
           </select>
         </div>
         <div class="form-group">
@@ -48,9 +69,16 @@
           <label for="grupo">Seleccionar grupo *</label>
           <select id="grupo" v-model="form.grupo" required>
             <option value="">Selecciona un grupo</option>
-            <option value="Grupo A">Grupo A</option>
-            <option value="Grupo B">Grupo B</option>
-            <option value="Grupo C">Grupo C</option>
+            <option>Grupo 1</option>
+            <option>Grupo 2</option>
+            <option>Grupo 3</option>
+            <option>Grupo 4</option>
+            <option>Grupo 5</option>
+            <option>Grupo 6</option>
+            <option>Grupo 7</option>
+            <option>Grupo 8</option>
+            <option>Grupo 9</option>
+            <option>Grupo 10</option>
           </select>
         </div>
       </div>
@@ -60,9 +88,10 @@
           <label for="curso">Tipo de curso *</label>
           <select id="curso" v-model="form.curso" required>
             <option value="">Selecciona un curso</option>
-            <option value="Curso 1">Curso 1</option>
-            <option value="Curso 2">Curso 2</option>
-            <option value="Curso 3">Curso 3</option>
+            <option>Curso Extensivo</option>
+            <option>Curso Intensivo Parcial</option>
+            <option>Curso Intensivo Final</option>
+            <option>Curso Pre-Intensivo Final</option>
           </select>
         </div>
         <div class="form-group comentarios">
@@ -115,7 +144,7 @@ const submitForm = () => {
 
   loading.value = true;
 
-  const message = `📌 Nueva solicitud:
+  const message = ` Nueva solicitud:
 - Nombre: ${form.nombre}
 - Email: ${form.email}
 - Teléfono: ${form.telefono}
@@ -125,8 +154,7 @@ const submitForm = () => {
 - Curso: ${form.curso}
 - Comentarios: ${form.comentarios}`;
 
-  // Número de la empresa Academia Sol (+34 678 17 57 75)
-  const phoneNumber = "34678175775"; // sin espacios ni +
+  const phoneNumber = "34678175775"; 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message
   )}`;

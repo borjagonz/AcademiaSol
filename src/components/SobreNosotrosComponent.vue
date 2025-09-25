@@ -10,62 +10,56 @@ const router = useRouter()
 
 <template>
     <section id="sobre-nosotros" class="sobre-nosotros-section">
-        <header-component />
-            <div class="linea-container">
-                <hr class="linea-blanca">
-            </div>
             <div class="nosotros-header">
-                <span class="nosotros-avantitle">Desde</span><span class="nosotros-avantitle-bold">1975</span><span class="nosotros-avantitle">formando universitarios</span>
-                <h1 class="nosotros-title">Academia Sol</h1>
-                <h2 class="nosotros-bienvenida">NUESTRA HISTORIA</h2>
-                <div class="body-container1">
-                        <p class="nosotros-body1">Fundada en 1975, Academia Sol Nord se ha consolidado como la mayor academia universitaria de Barcelona. Somos un centro de enseñanza privado, independiente de las universidades, que ofrece clases de apoyo para las asignaturas de los diferentes grados impartidos en las universidades de Barcelona, como la UB, UPC, URL, entre otras. <br><br>
-
-Nuestro objetivo es adaptarnos a las necesidades de cada estudiante. Por eso, ofrecemos una variedad de cursos —extensivos e intensivos— para preparar los exámenes de evaluación continua, las prácticas y los exámenes finales. <br><br>Las clases se imparten en grupos reducidos y tienen un enfoque muy práctico. Si bien explicamos la teoría de cada materia, nos centramos especialmente en realizar ejercicios y resolver exámenes de convocatorias anteriores, lo que permite a nuestros alumnos familiarizarse con el formato y la dificultad de los exámenes reales.</p>
-                        <p class="nosotros-body1">Nuestro equipo de profesores está altamente cualificado y especializado en las asignaturas que imparte. Gracias a su experiencia y conocimiento profundo de cada materia, logramos año tras año un alto porcentaje de aprobados, lo que respalda la calidad educativa de nuestra academia. <br><br>
-
-A lo largo de estos años formando a miles de alumnos, hemos aprendido y perfeccionado nuestras metodologías, para ofrecer clases profesionales, útiles y de alta calidad. Todo esto con el único objetivo de lograr lo que nos hemos propuesto desde nuestros inicios: la excelencia educativa. <br><br> <span class="objetivo">Nuestro objetivo, tu aprobado.</span></p>
-      
+                <div class="historia-container">
+                    <header-component/>
+                    <div class="avantitle"><span class="nosotros-avantitle">Desde</span><span class="nosotros-avantitle-bold">1975</span><span class="nosotros-avantitle">formando universitarios</span></div>
+                    <h1 class="nosotros-title">Academia Sol</h1>
+                    <h2 class="nosotros-bienvenida">NUESTRA HISTORIA</h2>
+                    <div class="body-container1">
+                        <p class="nosotros-body1">En 1975 se fundó ACADEMIA SOL y actualmente es la mayor academia universitaria de Barcelona, somos un centro de enseñanza privado externo a la universidad que ofrece clases de apoyo de las asignaturas de los diferentes grados que se imparten en las universidades de Barcelona: UB, UPC, URL… <br><br>
+                        Ofrecemos diferentes tipos de curso adaptados a las necesidades de cada alumno, cursos extensivos e intensivos para preparar los exámenes de evaluación continua, prácticas y los exámenes finales. Las clases se imparten en grupos reducidos y son muy prácticas, se explica la teoría de cada materia, pero, principalmente se realiza un gran número de ejercicios y se resuelven exámenes de convocatorias anteriores.</p>
+                        <p class="nosotros-body1">Nuestro equipo de profesores está altamente cualificado y especializado en cada una de las asignaturas que imparten, su amplia experiencia les permite conocer la materia a la perfección consiguiendo año tras año un alto porcentaje de aprobados.
+                        <br><br>
+                        En todos estos años de formación a miles de alumnos hemos aprendido mucho para ser capaces de ofrecer lo mejor a nuestros alumnos, clases profesionales , útiles y de calidad para alcanzar así el objetivo que, desde siempre, nos hemos marcado, la excelencia. <br><br> <span class="objetivo">Nuestro objetivo, tu aprobado.</span></p>
+                    </div>            
                 </div>
+            </div>
+            <div>
+                <h2 class="nosotros-numeros">NUESTROS NÚMEROS</h2>
                 <div class="estadisticas">
                     <div class="estadistica"><h2 class="estad-numero">+50</h2><h2 class="estad-texto">Años de experiencia</h2></div>
                     <div class="estadistica"><h2 class="estad-numero">+95%</h2><h2 class="estad-texto">De aprobados</h2></div>
                     <div class="estadistica"><h2 class="estad-numero">+25.000</h2><h2 class="estad-texto">Alumnos</h2></div>
+                    <div class="estadistica"><h2 class="estad-numero">4,8<span class="estrella">★</span></h2><h2 class="estad-texto">En reseñas de Google</h2></div>
                 </div>
-                <div class="estadisticas">
-                </div>
-                <div class="body-container">
-                </div>
-            </div>
-            <div>
-                <img class="nosotros-fondo" src="../logo/escudo-academiasol.svg" alt="">
-            </div>        
+            </div>     
 
             <div class="tipos-curso">
                 <h2 class="titulo-cursos">TODOS NUESTROS CURSOS</h2>
                 <div class="cursos-container">
-                    <ul>
+                    <ul class="ul">
                         <li class="curso">ADE</li>
                         <li class="curso">ECONOMIA</li>
                         <li class="curso">ESTADÍSTICA</li>
                         <li class="curso">MICRO</li>
                         <li class="curso">FINANZAS</li>
                     </ul>
-                    <ul>
+                    <ul class="ul">
                         <li class="curso">INFORMÁTICA</li>
                         <li class="curso">ECONOMETRIA</li>
                         <li class="curso">IDIOMAS</li>
                         <li class="curso">QUÍMICA</li>
                         <li class="curso">FÍSICA</li>
                     </ul>
-                    <ul>
+                    <ul class="ul">
                         <li class="curso">MECÁNICA</li>
                         <li class="curso">INGENIERÍAS</li>
                         <li class="curso">MATEMÁTICAS</li>
                         <li class="curso">CONTABILIDAD</li>
                         <li class="curso">ÁLGEBRA</li>
                     </ul>
-                    <ul>
+                    <ul class="ul">
                         <li class="curso">FISCAL</li>
                         <li class="curso">CÁLCULO</li>
                         <li class="curso">DIBUJO</li>
@@ -76,28 +70,27 @@ A lo largo de estos años formando a miles de alumnos, hemos aprendido y perfecc
             <div class="linea-container">
                 <hr class="linea-blanca">
             </div>
-        <FooterComponent/>
     </section>
+            <FooterComponent/>
 </template>
 
 <style scoped>
 
-.nosotros-fondo {
-    position: absolute;
-    left: 0;
-    top: 0px;
-    width: 100%;
-    height: auto;
-    opacity: 0.06;
-    z-index: -1;
-    margin: 0 auto;
-    padding-bottom: -500px;
+
+.historia-container {
+    background-image: url(../assets/academiasol-nosotros-graduado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.avantitle {
+    padding-top: 120px;
 }
 
 .nosotros-header {
     margin: 0 auto;
-    max-width: 1500px;
-    padding: 120px 20px 0px 20px;
     text-align: center;
 }
 
@@ -106,6 +99,15 @@ A lo largo de estos años formando a miles de alumnos, hemos aprendido y perfecc
     margin: 0 auto;
     text-align: center;
     padding: 60px 20px 0px 20px;
+    font-weight: 500; 
+    letter-spacing: 5px;
+}
+
+.nosotros-numeros {
+    color: #facd00;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 20px 0px 20px;
     font-weight: 500; 
     letter-spacing: 5px;
 }
@@ -124,9 +126,9 @@ A lo largo de estos años formando a miles de alumnos, hemos aprendido y perfecc
 }
 
 .nosotros-title {
-    font-size: 64px;
+    font-size: 82px;
     color: white;
-    margin: 20px 0px 20px 0px;
+    margin: 30px 0px 20px 0px;
     font-weight: 600;
 }
 
@@ -134,7 +136,7 @@ A lo largo de estos años formando a miles de alumnos, hemos aprendido y perfecc
     display: flex;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 60px 20px 40px 20px;
+    padding: 60px 0px 120px 0px;
     justify-content: center;
     gap: 60px;
 }
@@ -149,26 +151,29 @@ A lo largo de estos años formando a miles de alumnos, hemos aprendido y perfecc
 
 .estadisticas {
     display: flex;
-    margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 1500px;
-    padding: 0;
+    padding: 60px 20px 0px 20px;
+    margin: 0 auto;
 }
 
 .estadistica {
-    margin: 20px 20px;
     border-radius: 30px;
     font-weight: 600;
     font-size: 22px;
     width: 23.5%;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.18),-5px -5px 10px rgba(255, 255, 255, 0.15);
+    margin: 0;
+    padding: 0;
 }
 
 .estad-numero{
     color: #facd00;
     font-size: 60px;
-    padding: 0px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
     margin: 0;
-    font-weight: 400;
+    font-weight: 600;
+    text-align: center;
 }
 
 .estad-texto {
@@ -177,6 +182,7 @@ A lo largo de estos años formando a miles de alumnos, hemos aprendido y perfecc
     padding: 0px 20px 40px 20px;
     margin: 0;
     font-weight: 600;
+    text-align: center;
 }
 
 .estadistica:hover {
@@ -188,16 +194,15 @@ A lo largo de estos años formando a miles de alumnos, hemos aprendido y perfecc
     text-align: center;
     color: #facd00;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     margin:0;
-    font-weight: 700;
 }
 
 .titulo-cursos {
     color: #facd00;
     margin: 0 auto;
     text-align: center;
-    padding: 60px 20px 60px 0px;
+    padding: 100px 20px 60px 0px;
     font-weight: 500; 
     letter-spacing: 5px;
 }
@@ -215,7 +220,7 @@ A lo largo de estos años formando a miles de alumnos, hemos aprendido y perfecc
     margin: 0 auto;
     justify-content: center;
     max-width: 1500px;
-    gap: 80px;
+    gap: 120px;
     padding-bottom: 100px;
 }
 
@@ -224,6 +229,17 @@ A lo largo de estos años formando a miles de alumnos, hemos aprendido y perfecc
     padding: 4px;
 }
 
+.estrella {
+    font-size: 35px;
+    position:relative;
+    bottom: 20px;
+    padding: 0;
+    margin-left: 2px;
+}
 
+.ul {
+    padding: 0;
+    margin: 0;
+}
 
 </style>
